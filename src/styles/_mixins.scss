@@ -1,0 +1,9 @@
+@mixin response ($columns) {
+  grid-template-columns: repeat($columns, 200px);
+}
+
+@mixin grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
