@@ -1,7 +1,8 @@
-@import "_mixins.scss";
+@import "./utils/variables";
+@import "./utils/mixins";
 
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./blocks/header";
+@import "./blocks/catalog";
 
 html {
   font-family: Roboto, sans-serif;
